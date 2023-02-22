@@ -1,0 +1,63 @@
+body{
+    margin: 50px;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
+.image{
+    width: 150px;
+    border-radius: 1000%;
+}
+
+.image:hover{
+    border-radius: 1000px;
+    transition: border-radius 0.3s;
+
+}
+
+.card-data{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    width: 400px;
+    background:  lightcyan;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aliceblue;
+    border-bottom: 2px solid rgb(33, 109, 139);
+    border-radius: 100%;
+}
+.card-data:hover{
+    border-radius: 500px;
+    transition: border-radius 0.2s;
+}
+
+h3{
+    background-color: lightcyan;
+    transition: background-color 0.5s;
+    border-radius: 30px;
+    width: 200px;
+}
+p{
+    background-color: lightcyan;
+    transition: background-color 0.5s;
+    border-radius: 30px;
+}
+h4{
+    background-color: lightcyan;
+    transition: background-color 0.5s;
+    border-radius: 30px;
+} 
+h3:hover {
+    background-color: gold;
+}
+p:hover{
+    background-color: aqua;
+}
+h4:hover{
+    background-color: aquamarine;
+}
+
+.content{
+    margin: 15px 0 0 0;
+}
+

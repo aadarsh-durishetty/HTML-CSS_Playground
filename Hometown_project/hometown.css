@@ -1,0 +1,122 @@
+
+body{
+    background: linear-gradient(rgb(233, 224, 99),rgb(255, 255, 255));
+    background-size: cover;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.main{
+    background-image: url("hyderabad.jpg");
+    background-size: cover;
+    border-radius: 50px;
+    padding: 30px 0 30px 0;
+    width: 2400px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.main-text{
+    margin-bottom: 600px;
+}
+
+.heading{
+    font-size: 100px;
+    color: rgb(74, 18, 18);
+}
+.sub-heading{
+    display: flex;
+    margin: 50px 0 100px 740px;
+    font-size: 50px;
+    color: rgb(2, 2, 2);
+}
+
+.highlights{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+}
+.place,.food,.culture{
+    margin: 5px 60px 5px 60px;
+    width: auto;
+}
+.charminar,.biryani,.tradition{
+    width: 700px;
+    border-radius: 1000%;
+}
+.charminar:hover{
+    border-radius: 10px;
+    transition: border-radius 0.2s;
+}
+.biryani:hover{
+    border-radius: 10px;
+    transition: border-radius 0.2s;
+}
+.tradition:hover{
+    border-radius: 10px;
+    transition: border-radius 0.2s;
+}
+.guide-info{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background:  rgb(146, 243, 243);
+    margin: 100px 0 100px 740px;
+    background-color: aliceblue;
+    border-bottom: 5px solid rgb(207, 173, 0);
+    border-radius: 150px;
+    width: 1000px;
+}
+.about-guide{
+    justify-content: center;
+    font-size: 25px;
+    margin: 70px 0 20px 50px;
+    width: 500px;
+}
+.guide-name{
+    font-size: 25px;
+    justify-content: center;
+    margin: 50px 0 20px 50px;
+    width: 500px;
+}
+.contact{
+    margin: 0 0 0 60px;
+}
+.image{
+    width: 300px;
+    border-radius: 2000%;
+    transition: background-color 0.2s;
+}
+.image:hover{
+    border-radius: 10px;
+    transition: border-radius 0.2s;
+}
+.guide-info:hover{
+    border-radius: 10px;
+    transition: border-radius 0.2s;
+}
+.about-guide,.guide-name,.contact{
+    background-color: aliceblue;
+    transition: background-color 0.2s;
+    border-radius: 150px;
+}
+.about-guide:hover{
+    background-color: gold;
+}
+.guide-name:hover{
+    background-color: gold;
+}
+.contact:hover{
+    background-color: gold;
+}
+.end-line-1{
+    font-size: 50px;
+    margin: 0 0 0 170px;
+    width: 2200px;
+}
+.end-line-2{
+    width: 2200px;
+    font-size: 40px;
+    margin: 0 0 0 170px;
+}
