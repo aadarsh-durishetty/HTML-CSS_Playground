@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.container > div > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.container > .big{
+    flex: 1 1 600px;
+}
+.container > .medium{
+    flex: 1 1 400px;
+}
+.container > .small{
+    flex: 1 1 300px;
+}
